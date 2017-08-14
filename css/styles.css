@@ -1,3 +1,8 @@
+body {
+  margin: auto;
+  width: 80%;
+}
+
 .item {
   float: left;
   display: inline;
@@ -5,4 +10,8 @@
 
 .drinks, .chicken, .rice {
   display: none;
+}
+
+.fastFoodCarousel {
+  box-sizing: content-box;
 }
