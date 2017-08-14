@@ -6,9 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <!--  <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css"> -->
+  <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/bootstrap.js"></script>
   <script src="js/scripts.js"></script>
   <title>Anita's Kitchen</title>
 </head>
@@ -38,13 +39,199 @@
       </div>
     </div>
 
-    <div class="section3"></div>
-    <div class="section4"></div>
-    <div class="section4">
+    <div class="section3">
+      <div class="fastfoodphotos">
+        <img src="assets/fastFood1.jpg" alt="Photo of Fast Food"><br/>
+        <img src="assets/fastFood2.jpg" alt="Photo of Fast Food">
+      </div>
+      <div class="panel panel-info">
+        <p class="panel-title">Fast Food</p>
+        <p class="panel-body"><span class="panelSubtitle">You'll love our delicious food.</span><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum.</p>
+        <button type="button" name="button" class="panel-footer">View Gallery</button>
+      </div>
+      <div class="drinksphotos">
+        <div class="panel">
+          <p class="panel-title">Drinks</p>
+          <p class="panel-body"><span class="panelSubtitle">We also producde delicious drinks.</span><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.</p>
+          <button type="button" name="button" class="panel-footer">View Gallery</button>
+        </div>
+        <div class="drinkphotos">
+          <img src="assets/drink1.jpg" alt="Photo of Drink">
+          <img src="assets/drink2.jpg" alt="Photo of Drink">
+        </div>
+      </div>
+
+      <div class="section4">
+        <div class="fastfood">
+          <h3>Fast Food</h3>
+          <div id="fastFoodCarousel" class="carousel" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#fastFoodCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#fastFoodCarousel" data-slide-to="1" class="active"></li>
+              <li data-target="#fastFoodCarousel" data-slide-to="2" class="active"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger">
+
+              </div>
+
+              <div class="item active ">
+                <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger">
+              </div>
+
+              <div class="item active">
+                <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
+              </div>
+
+
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#fastFoodCarousel" data-slide="prev">
+    <span class="icon-prev"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+          <a class="right carousel-control" href="#fastFoodCarousel" data-slide="next">
+    <span class="icon-next"></span>
+    <span class="sr-only">Next</span>
+  </a>
+        </div>
+        <div class="drinks">
+          <h3>Drinks</h3>
+          <div id="drinksCarousel" class="carousel" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#drinksCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#drinksCarousel" data-slide-to="1" class="active"></li>
+              <li data-target="#drinksCarousel" data-slide-to="2" class="active"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger">
+
+              </div>
+
+              <div class="item active ">
+                <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger">
+              </div>
+
+              <div class="item active">
+                <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
+              </div>
+
+
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#drinksCarousel" data-slide="prev">
+  <span class="icon-prev"></span>
+  <span class="sr-only">Previous</span>
+</a>
+          <a class="right carousel-control" href="#drinksCarousel" data-slide="next">
+  <span class="icon-next"></span>
+  <span class="sr-only">Next</span>
+</a>
+        </div>
+      </div>
+      <div class="chicken">
+        <h3>Chicken</h3>
+        <div id="chickenCarousel" class="carousel" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#chickenCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#chickenCarousel" data-slide-to="1" class="active"></li>
+            <li data-target="#chickenCarousel" data-slide-to="2" class="active"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger">
+
+            </div>
+
+            <div class="item active ">
+              <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger">
+            </div>
+
+            <div class="item active">
+              <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
+            </div>
+
+
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#chickenCarousel" data-slide="prev">
+  <span class="icon-prev"></span>
+  <span class="sr-only">Previous</span>
+</a>
+        <a class="right carousel-control" href="#chickenCarousel" data-slide="next">
+  <span class="icon-next"></span>
+  <span class="sr-only">Next</span>
+</a>
+      </div>
     </div>
-    <div class="section5"></div>
-    <div class="section6"></div>
-    <div class="section7"></div>
+    <div class="rice">
+      <h3>Rice</h3>
+      <div id="riceCarousel" class="carousel" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#riceCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#riceCarousel" data-slide-to="1" class="active"></li>
+          <li data-target="#riceCarousel" data-slide-to="2" class="active"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger">
+
+          </div>
+
+          <div class="item active ">
+            <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger">
+          </div>
+
+          <div class="item active">
+            <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
+          </div>
+
+
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#riceCarousel" data-slide="prev">
+<span class="icon-prev"></span>
+<span class="sr-only">Previous</span>
+</a>
+      <a class="right carousel-control" href="#riceCarousel" data-slide="next">
+<span class="icon-next"></span>
+<span class="sr-only">Next</span>
+</a>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="section5"></div>
+  <div class="section6"></div>
+  <div class="section7"></div>
+  </div>
   </div>
 </body>
 

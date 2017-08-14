@@ -1,0 +1,8 @@
+.item {
+  float: left;
+  display: inline;
+}
+
+.drinks, .chicken, .rice {
+  display: none;
+}
