@@ -15,12 +15,14 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="section1">
-      <img src="assets/logoBig.png" alt="Company Logo">
-      <p>We Provide The Best Food <br /> At The <span class="boldSlogan">Right Price</span></p>
-    </div>
+  <!-- Section 1 includes the Logo, Slogan and Horizontal Line Menu-->
+  <div class="section1">
+    <img src="assets/logoBig.png" alt="Company Logo">
+    <p>We Provide The Best Food <br /> At The <span class="boldSlogan">Right Price</span></p>
+  </div>
 
+  <!-- Section 2 includes the Drinks, Breakfast, Lunch and Dinner Clickable Menu-->
+  <div class="container">
     <div class="section2">
       <div class="row">
         <div class="col-md-3">
@@ -39,27 +41,35 @@
       </div>
     </div>
 
+    <!-- Section 3 includes information on Fast food and Drink items with photos-->
     <div class="section3">
-      <div class="fastfoodphotos">
-        <img src="assets/fastFood1.jpg" alt="Photo of Fast Food"><br/>
-        <img src="assets/fastFood2.jpg" alt="Photo of Fast Food">
-      </div>
-      <div class="panel panel-info">
-        <p class="panel-title">Fast Food</p>
-        <p class="panel-body"><span class="panelSubtitle">You'll love our delicious food.</span><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-          mollit anim id est laborum.</p>
-        <button type="button" name="button" class="panel-footer">View Gallery</button>
-      </div>
-      <div class="drinksphotos">
-        <div class="panel">
-          <p class="panel-title">Drinks</p>
-          <p class="panel-body"><span class="panelSubtitle">We also producde delicious drinks.</span><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            mollit anim id est laborum.</p>
-          <button type="button" name="button" class="panel-footer">View Gallery</button>
+      <div class="row">
+        <div class="col-md-6 fastFoodPhotos">
+          <img src="assets/fastFood1.jpg" alt="Photo of Fast Food"><br/>
+          <img src="assets/fastFood2.jpg" alt="Photo of Fast Food">
         </div>
-        <div class="drinkphotos">
+        <div class="col-md-6">
+          <div class="panel fastFood">
+            <p class="panel-title">Fast Food</p>
+            <p class="panel-body"><span class="panelSubtitle">You'll love our delicious food.</span><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.</p>
+            <button type="button" name="button" class="panel-footer">View Gallery</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 drinksinfo">
+          <div class="panel">
+            <p class="panel-title">Drinks</p>
+            <p class="panel-body"><span class="panelSubtitle">We also producde delicious drinks.</span><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.</p>
+            <button type="button" name="button" class="panel-footer">View Gallery</button>
+          </div>
+        </div>
+        <div class="col-md-6 drinksPhotos">
           <img src="assets/drink1.jpg" alt="Photo of Drink">
           <img src="assets/drink2.jpg" alt="Photo of Drink">
         </div>
