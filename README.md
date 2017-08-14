@@ -13,9 +13,9 @@ The website, a landing page for Anita's Kitchen's Website was made in fulfillmen
 ## Setup/Installation Requirements
 
 To view the website, 
-* click [Anita's Website](https://marynganga.gihub.io/)
+* click [Anita's Website](https://marynganga.github.io/independent-project-2/)
 or 
-* copy the link ****** paste it to your browser and load it.  
+* copy the link https://marynganga.github.io/independent-project-2/ paste it to your browser and load it.  
 
 
 ## Known Bugs
