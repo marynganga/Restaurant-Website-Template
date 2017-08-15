@@ -10,7 +10,7 @@ body {
   padding: 175px;
   color: white;
   font-size: 20px;
-  margin-left: -5%;
+  margin-left: -10%;
   margin-right: -10%;
 }
 
@@ -129,7 +129,29 @@ button {
 .nav-list {
   width: 80%;
   margin: auto;
+}
+
+.nav-tabs {
+  background-color: lightgrey;
+  font-size: 16px;
+}
+
+.nav-tabs>.active {
   background-color: white;
+  border-bottom: 0;
+}
+
+.nav-tabs li {
+  border-right: 1px solid #777;
+  border-bottom: 1px solid #777;
+}
+
+a {
+  color: black;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+  color: #f15a19;
 }
 
 .tab-content {
@@ -137,10 +159,24 @@ button {
 }
 
 .carousel-inner {
-  padding-left: 70px;
+  padding: 25px;
 }
 
 .item {
-  display: inline;
   float: left;
+  margin: 10px;
+}
+
+.carousel-control {
+  opacity: 0;
+}
+
+.carousel-control .icon-prev {
+  left: 10%;
+  color: #f15a19;
+}
+
+.carousel-control .icon-next {
+  right: 35%;
+  color: #f15a19;
 }
