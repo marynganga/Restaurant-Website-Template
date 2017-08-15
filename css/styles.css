@@ -292,11 +292,36 @@
   }
 
   input[type=email] {
-    opacity: 0.5;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
   }
 
-  input[placeholder="Your email"] {
+  input[type=button] {
+    background-color: #f15a29;
     color: white;
+    font-size: 16px;
+  }
+
+  .form-control {
+    border: 0;
+    border-radius: 2px;
+  }
+
+  .form-control::-moz-placeholder {
+    color: white;
+    opacity: 1;
+  }
+
+  .form-control:-ms-input-placeholder {
+    color: white;
+  }
+
+  .form-control::-webkit-input-placeholder {
+    color: white;
+  }
+
+  #output {
+    font-size: 20px;
   }
   /*Section 7 Styles*/
 
@@ -309,5 +334,28 @@
   .footer {
     width: 30%;
     margin: auto;
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .footer>img {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+  }
+
+  .footer p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .footer h5 {
+    font-size: 40px;
+  }
+
+  #copyright {
+    font-size: 14px;
   }

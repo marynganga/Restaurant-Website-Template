@@ -11,6 +11,7 @@
   <script src="js/jquery-3.2.1.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/scripts.js"></script>
+
   <title>Anita's Kitchen</title>
 </head>
 
@@ -289,12 +290,13 @@
         <form id="subscribtionList">
           <div class="rows">
             <div class="col-md-8">
-              <input type="email" class="form-control" placeholder="Your email">
+              <input type="email" id="emailaddress" class="form-control" placeholder="Your email">
             </div>
             <div class="col-md-4">
-              <input type="button" value="Submit" id="submit" class="form-control">
-              <!--<button type="submit" class="btn" class="form-control">Subscribe</button>-->
+              <!--  <button type="submit" class="btn" class="form-control" id="subscribe">Subscribe</button>-->
+              <input type="button" value="Subscribe" id="subscribe" class="form-control">
             </div>
+            <p id="output"></p>
           </div>
         </form>
       </div>
@@ -303,13 +305,13 @@
     <div class="section7">
       <div class="footer">
         <h5>
-          <img src="assets/footerlogos/logo_white.png" alt="White Logo">MENU
+          <img src="assets/footerlogos/logo_white.png" alt="White Logo">     MENU
       </h5>
         <p>Thats what we are</p>
         <img src="assets/footerlogos/facebook.png" alt="Facebook Logo">
         <img src="assets/footerlogos/twitter.png" alt="Twitter Logo">
         <img src="assets/footerlogos/pinterest.png" alt="Pinterest Logo">
-        <p></p>
+        <p id="copyright">2016 Menu Restaurant</p>
       </div>
     </div>
   </div>
