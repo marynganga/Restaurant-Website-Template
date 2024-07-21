@@ -1,11 +1,14 @@
-//scripts for the testimonial carousel
-$('document').ready(function () {
-    $("#subscribe").click(function (event) {
+$(document).ready(function () {
+    $("#subscribe").on("click", function (event) {
         event.preventDefault();
-        var subscribedemail = $("#emailaddress").val();
-        alert(subscribedemail + " has been successfully subscribed. Thank you for joining our mailing list. ");
-        $("#emailaddress").val(""); //clear input field after successfully subscribing.
-
+        
+        var subscribedEmail = $("#emailaddress").val().trim();
+        
+        if (subscribedEmail) {
+            alert(subscribedEmail + " has been successfully subscribed. Thank you for joining our mailing list.");
+            $("#emailaddress").val(""); // Clear input field after successfully subscribing
+        } else {
+            alert("Please enter a valid email address.");
+        }
     });
-
 });
