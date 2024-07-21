@@ -1,398 +1,378 @@
-  body {
-      margin: auto;
-  }
-  /*Section 1 Styles: Modal and Logo */
-  
-  .section1 {
-      background-image: url("../assets/backgrounds/landing.jpg");
-      background-size: cover;
-      overflow: hidden;
-      margin-left: -10%;
-      margin-right: -10%;
-  }
-  /*Modal Section Styles */
-  
-  .menulines {
-      z-index: 2;
-      padding-left: 80px;
-  }
-  
-  .menulines .btn {
-      color: white;
-      background-color: transparent;
-      font-size: 30px;
-      padding: 0px;
-  }
-  
-  .fa {
-      /*horizontal lines icon*/
-      width: 25px;
-      height: 25px;
-  }
-  
-  .modal {
-      background-color: #F15A29;
-  }
-  
-  .fade.in {
-      opacity: 0.8;
-  }
-  
-  .modal-body,
-  .modal-title {
-      font-size: 20px;
-  }
-  
-  .modal-footer .btn {
-      font-size: 20px;
-      color: black;
-  }
-  /*Logo and Slogan Styles */
-  
-  .logo {
-      padding: 150px;
-      z-index: 1;
-      text-align: center;
-      color: white;
-      font-size: 20px;
-  }
-  
-  .boldSlogan {
-      font-weight: bold;
-  }
-  /*Section 2 files*/
-  
-  .section2 {
-      margin-left: -10%;
-      margin-right: -10%;
-      text-align: center;
-      color: white;
-      font-style: italic;
-      font-size: 20px;
-  }
-  
-  @media (min-width: 992px) {
-      .col-md-3 {
-          padding-left: 0;
-          padding-right: 0;
-      }
-  }
-  
-  .happyhour {
-      padding-top: 41px;
-      padding-bottom: 45px;
-      background-color: lightgrey;
-      margin-bottom: 0;
-  }
-  
-  .partytime {
-      padding-top: 41px;
-      padding-bottom: 45px;
-      background-color: #F15A29;
-  }
-  
-  #breakfast {
-      background-image: url("../assets/foodtop/breakfast.jpg");
-      background-size: cover;
-      padding: 100px;
-  }
-  
-  #lunch {
-      background-image: url("../assets/foodtop/lunch.jpg");
-      background-size: cover;
-      padding: 100px;
-  }
-  
-  #dinner {
-      background-image: url("../assets/foodtop/dinner.jpg");
-      background-size: cover;
-      padding: 100px;
-  }
-  
-  #dinner:hover,
-  #lunch:hover,
-  #breakfast:hover {
-      color: #F15A29;
-      opacity: 0.7;
-      filter: alpha(opacity=70);
-      /* For IE8 and earlier */
-  }
-  /*Section 3 Styles*/
-  
-  .section3 {
-      padding: 50px;
-  }
-  
-  .fastFood {
-      padding: 20px;
-      margin-left: 25px;
-      text-align: left;
-  }
-  
-  .drinksInfoRow {
-      padding-top: 70px;
-  }
-  
-  .fastFood>h3,
-  .fastFood>h4,
-  .drinksInfo>h3,
-  .drinksInfo>h4 {
-      font-weight: bold;
-  }
-  
-  .fastFoodPhotos,
-  .drinksInfoPhotos {
-      padding: 20px;
-      border: 2px solid rgba(211, 211, 211, 0.44);
-      box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.14);
-  }
-  
-  .fastFoodPhotos>img,
-  .drinksInfoPhotos>img {
-      margin: auto;
-      text-align: center;
-  }
-  
-  .drinksInfoPhoto2 {
-      float: right;
-  }
-  
-  button {
-      margin-top: 20px;
-      padding: 10px;
-      background-color: white;
-      color: #f15a29;
-      border: 1px solid #f15a29;
-  }
-  /*Section 4 Styles*/
-  
-  .section4 {
-      margin-left: -10%;
-      margin-right: -10%;
-      text-align: center;
-      background-image: url("../assets/backgrounds/foodsBg.jpg");
-      background-size: cover;
-      background-attachment: scroll;
-      background-clip: border-box;
-      background-position: center;
-      background-repeat: no-repeat;
-      padding: 70px;
-  }
-  
-  .nav-list {
-      width: 80%;
-      margin: auto;
-  }
-  
-  .nav-tabs {
-      background-color: lightgrey;
-      font-size: 16px;
-  }
-  
-  .nav-tabs>.active {
-      background-color: white;
-      border-bottom: 0;
-  }
-  
-  .nav-tabs li {
-      border-right: 1px solid #777;
-      border-bottom: 1px solid #777;
-  }
-  
-  a {
-      color: black;
-  }
-  
-  .nav-tabs>li.active>a,
-  .nav-tabs>li.active>a:hover,
-  .nav-tabs>li.active>a:focus {
-      color: #f15a19;
-  }
-  
-  .tab-content {
-      background-color: white;
-  }
-  
-  .carousel-inner {
-      padding: 25px;
-  }
-  
-  .item {
-      float: left;
-      margin: 10px;
-  }
-  
-  .carousel-control {
-      opacity: 1;
-      color: #f15a19;
-  }
-  
-  .carousel-control.left,
-  .carousel-control.right {
-      background-image: none;
-  }
-  /* Section 5 Styles*/
-  
-  .section5>.row {
-      width: 80%;
-      margin: 50px auto;
-      border: 2px solid #ddd;
-      box-shadow: 0px 0px 5px lightgrey;
-      padding: 40px;
-  }
-  
-  .customers {
-      margin: auto;
-      text-align: center;
-      padding: 20px;
-  }
-  
-  .customers>h4 {
-      color: #f15a29;
-      font-weight: bold;
-  }
-  
-  .carousel-inner>.item>img {
-      margin: auto;
-  }
-  
-  #testimonials .carousel-inner {
-      padding: 0px;
-  }
-  
-  .carousel-indicators {
-      display: none;
-  }
-  
-  .item h5 {
-      margin-top: 1px;
-  }
-  /* Styles for customer testimonials carousel*/
-  
-  .carousel-inner .item.left.active {
-      transform: translateX(-33%);
-  }
-  
-  .carousel-inner .item.right.active {
-      transform: translateX(33%);
-  }
-  
-  .carousel-inner .item.next {
-      transform: translateX(33%)
-  }
-  
-  .carousel-inner .item.prev {
-      transform: translateX(-33%)
-  }
-  
-  .carousel-inner .item.right,
-  .carousel-inner .item.left {
-      transform: translateX(0);
-  }
-  
-  .about {
-      padding: 20px;
-      text-align: center;
-      border-left: 2px solid #ddd;
-  }
-  
-  .about>h4 {
-      color: #f15a29;
-      font-weight: bold;
-  }
-  /*Section 6 Styles*/
-  
-  .section6 {
-      text-align: center;
-      background-image: url("../assets/backgrounds/subscribe.jpg");
-      background-size: cover;
-      overflow: hidden;
-      color: white;
-      font-size: 20px;
-      margin-left: -10%;
-      margin-right: -10%;
-      padding: 80px;
-  }
-  
-  .form-group {
-      width: 50%;
-      margin: auto;
-  }
-  
-  .section6 p {
-      font-size: 30px;
-  }
-  
-  input[type=email] {
-      background-color: rgba(255, 255, 255, 0.4);
-      font-size: 16px;
-  }
-  
-  input[type=button] {
-      background-color: #f15a29;
-      color: white;
-      font-size: 16px;
-  }
-  
-  .form-control {
-      border: 0;
-      border-radius: 2px;
-  }
-  
-  .form-control::-moz-placeholder {
-      color: white;
-      opacity: 1;
-  }
-  
-  .form-control:-ms-input-placeholder {
-      color: white;
-  }
-  
-  .form-control::-webkit-input-placeholder {
-      color: white;
-  }
-  
-  #output {
-      font-size: 20px;
-  }
-  
-  .footer .fa {
-      margin-right: 15px;
-      margin-left: 15px;
-  }
-  /*Section 7 Styles: Footer*/
-  
-  .section7 {
-      background-color: #f15a29;
-      margin-left: -10%;
-      margin-right: -10%;
-  }
-  
-  .footer {
-      width: 30%;
-      margin: auto;
-      padding-top: 100px;
-      padding-bottom: 40px;
-      color: white;
-      font-size: 20px;
-      text-align: center;
-  }
-  
-  .footer>img {
-      padding-left: 10px;
-      padding-right: 10px;
-      padding-bottom: 40px;
-  }
-  
-  .footer p {
-      margin-top: 20px;
-      margin-bottom: 20px;
-  }
-  
-  .footer h5 {
-      font-size: 40px;
-  }
-  
-  #copyright {
-      font-size: 14px;
-  }
+body {
+    margin: auto;
+}
+
+/* Section 1 Styles: Modal and Logo */
+.section1 {
+    background: url("../assets/backgrounds/landing.jpg") no-repeat center center/cover;
+    overflow: hidden;
+    margin: 0 -10%;
+}
+
+/* Modal Section Styles */
+.menulines {
+    z-index: 2;
+    padding-left: 80px;
+}
+
+.menulines .btn {
+    color: white;
+    background: none;
+    font-size: 30px;
+    padding: 0;
+}
+
+.fa {
+    /* Horizontal lines icon */
+    width: 25px;
+    height: 25px;
+}
+
+.modal {
+    background-color: #F15A29;
+}
+
+.fade.in {
+    opacity: 0.8;
+}
+
+.modal-body,
+.modal-title {
+    font-size: 20px;
+}
+
+.modal-footer .btn {
+    font-size: 20px;
+    color: black;
+}
+
+/* Logo and Slogan Styles */
+.logo {
+    padding: 150px;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.boldSlogan {
+    font-weight: bold;
+}
+
+/* Section 2 Styles */
+.section2 {
+    margin: 0 -10%;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+}
+
+@media (min-width: 992px) {
+    .col-md-3 {
+        padding: 0;
+    }
+}
+
+.happyhour {
+    padding: 41px 0 45px;
+    background-color: lightgrey;
+    margin-bottom: 0;
+}
+
+.partytime {
+    padding: 41px 0 45px;
+    background-color: #F15A29;
+}
+
+#breakfast,
+#lunch,
+#dinner {
+    background-size: cover;
+    padding: 100px;
+}
+
+#breakfast {
+    background-image: url("../assets/foodtop/breakfast.jpg");
+}
+
+#lunch {
+    background-image: url("../assets/foodtop/lunch.jpg");
+}
+
+#dinner {
+    background-image: url("../assets/foodtop/dinner.jpg");
+}
+
+#breakfast:hover,
+#lunch:hover,
+#dinner:hover {
+    color: #F15A29;
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+/* Section 3 Styles */
+.section3 {
+    padding: 50px;
+}
+
+.fastFood {
+    padding: 20px;
+    margin-left: 25px;
+    text-align: left;
+}
+
+.drinksInfoRow {
+    padding-top: 70px;
+}
+
+.fastFood h3,
+.fastFood h4,
+.drinksInfo h3,
+.drinksInfo h4 {
+    font-weight: bold;
+}
+
+.fastFoodPhotos,
+.drinksInfoPhotos {
+    padding: 20px;
+    border: 2px solid rgba(211, 211, 211, 0.44);
+    box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.14);
+}
+
+.fastFoodPhotos img,
+.drinksInfoPhotos img {
+    margin: auto;
+    display: block;
+}
+
+.drinksInfoPhoto2 {
+    float: right;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    color: #F15A29;
+    border: 1px solid #F15A29;
+}
+
+/* Section 4 Styles */
+.section4 {
+    margin: 0 -10%;
+    text-align: center;
+    background: url("../assets/backgrounds/foodsBg.jpg") no-repeat center center/cover;
+    padding: 70px;
+}
+
+.nav-list {
+    width: 80%;
+    margin: auto;
+}
+
+.nav-tabs {
+    background-color: lightgrey;
+    font-size: 16px;
+}
+
+.nav-tabs>.active {
+    background-color: white;
+    border-bottom: 0;
+}
+
+.nav-tabs li {
+    border-right: 1px solid #777;
+    border-bottom: 1px solid #777;
+}
+
+a {
+    color: black;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+    color: #F15A19;
+}
+
+.tab-content {
+    background-color: white;
+}
+
+.carousel-inner {
+    padding: 25px;
+}
+
+.item {
+    float: left;
+    margin: 10px;
+}
+
+.carousel-control {
+    opacity: 1;
+    color: #F15A19;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+}
+
+/* Section 5 Styles */
+.section5>.row {
+    width: 80%;
+    margin: 50px auto;
+    border: 2px solid #ddd;
+    box-shadow: 0 0 5px lightgrey;
+    padding: 40px;
+}
+
+.customers {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.customers>h4 {
+    color: #F15A29;
+    font-weight: bold;
+}
+
+.carousel-inner>.item>img {
+    margin: auto;
+}
+
+#testimonials .carousel-inner {
+    padding: 0;
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+.item h5 {
+    margin-top: 1px;
+}
+
+/* Styles for customer testimonials carousel */
+.carousel-inner .item.left.active {
+    transform: translateX(-33%);
+}
+
+.carousel-inner .item.right.active {
+    transform: translateX(33%);
+}
+
+.carousel-inner .item.next {
+    transform: translateX(33%);
+}
+
+.carousel-inner .item.prev {
+    transform: translateX(-33%);
+}
+
+.carousel-inner .item.right,
+.carousel-inner .item.left {
+    transform: translateX(0);
+}
+
+.about {
+    padding: 20px;
+    text-align: center;
+    border-left: 2px solid #ddd;
+}
+
+.about>h4 {
+    color: #F15A29;
+    font-weight: bold;
+}
+
+/* Section 6 Styles */
+.section6 {
+    text-align: center;
+    background: url("../assets/backgrounds/subscribe.jpg") no-repeat center center/cover;
+    overflow: hidden;
+    color: white;
+    font-size: 20px;
+    margin: 0 -10%;
+    padding: 80px;
+}
+
+.form-group {
+    width: 50%;
+    margin: auto;
+}
+
+.section6 p {
+    font-size: 30px;
+}
+
+input[type=email] {
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+}
+
+input[type=button] {
+    background-color: #F15A29;
+    color: white;
+    font-size: 16px;
+}
+
+.form-control {
+    border: 0;
+    border-radius: 2px;
+}
+
+.form-control::-moz-placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+    color: white;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: white;
+}
+
+#output {
+    font-size: 20px;
+}
+
+.footer .fa {
+    margin: 0 15px;
+}
+
+/* Section 7 Styles: Footer */
+.section7 {
+    background-color: #F15A29;
+    margin: 0 -10%;
+}
+
+.footer {
+    width: 30%;
+    margin: auto;
+    padding: 100px 0 40px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer>img {
+    padding: 0 10px 40px;
+}
+
+.footer p {
+    margin: 20px 0;
+}
+
+.footer h5 {
+    font-size: 40px;
+}
+
+#copyright {
+    font-size: 14px;
+}
